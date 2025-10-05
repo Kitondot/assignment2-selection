@@ -32,21 +32,21 @@ number of trials (3)
 The program creates random arrays, sorts them using Selection Sort, and saves the results to a .csv file.
 
 ## Benchmark Results
-```
+
 The benchmark recorded four main metrics:
 time_ns: total execution time (nanoseconds)
 comparisons: number of comparisons
 swaps: number of swaps
 array_accesses: memory read/write operations
 Each test was repeated 3 times for better accuracy.
-```
+
 ## Plots
 ![Execution Time](images/selection_time.png)
 ![Comparisons](images/selection_comparisons.png)
 ![Array Accesses](images/selection_accesses.png)
 
 ## Analysis
-```
+
 From the results, we can clearly see the expected O(n²) behavior of Selection Sort.
 
 Execution Time:
@@ -64,15 +64,15 @@ This makes Selection Sort efficient when swaps are expensive.
 Array Accesses:
 The number of array reads/writes grows in proportion to n²,
 confirming the same theoretical complexity as expected.
-```
+
 ## Conclusion
-```
+
 Selection Sort works correctly and behaves exactly as theory predicts.
 The results confirm O(n²) complexity.
 It’s easy to understand, stable in behavior, and useful for learning algorithm analysis.
-```
+
 ## Tests
-```
+
 All functions were verified with JUnit 5 unit tests.
 Each test checks that the array is correctly sorted and no errors occur.
 
@@ -80,7 +80,7 @@ To run tests inside IntelliJ IDEA:
 Open the test file SelectionSortTest.java.
 Right-click inside the editor → Run 'SelectionSortTest'.
 All tests should pass (green).
-```
+
 ```
 
 ```
