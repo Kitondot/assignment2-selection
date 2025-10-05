@@ -22,13 +22,19 @@ mvn clean package
 ```
 java -jar target/assignment2-selection-1.0-SNAPSHOT.jar selection results.csv 100 6400 2 3
 ```
-Arguments:
+## Arguments:
 algorithm name (selection)
+
 output file name (for example, results.csv)
+
 minimum array size (100)
+
 maximum array size (6400)
+
 growth factor (2)
+
 number of trials (3)
+
 The program creates random arrays, sorts them using Selection Sort, and saves the results to a .csv file.
 
 ## Benchmark Results
