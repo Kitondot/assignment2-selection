@@ -40,10 +40,15 @@ The program creates random arrays, sorts them using Selection Sort, and saves th
 ## Benchmark Results
 
 The benchmark recorded four main metrics:
+
 time_ns: total execution time (nanoseconds)
+
 comparisons: number of comparisons
+
 swaps: number of swaps
+
 array_accesses: memory read/write operations
+
 Each test was repeated 3 times for better accuracy.
 
 ## Plots
@@ -74,11 +79,13 @@ confirming the same theoretical complexity as expected.
 ## Conclusion
 
 Selection Sort works correctly and behaves exactly as theory predicts.
+
 The results confirm O(n²) complexity.
+
 It’s easy to understand, stable in behavior, and useful for learning algorithm analysis.
 
 ## Tests
-
+```
 All functions were verified with JUnit 5 unit tests.
 Each test checks that the array is correctly sorted and no errors occur.
 
@@ -89,4 +96,3 @@ All tests should pass (green).
 
 ```
 
-```
