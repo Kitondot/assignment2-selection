@@ -52,9 +52,9 @@ array_accesses: memory read/write operations
 Each test was repeated 3 times for better accuracy.
 
 ## Plots
-![Execution Time](images/selection_time.png)
-![Comparisons](images/selection_comparisons.png)
-![Array Accesses](images/selection_accesses.png)
+![Execution Time](2025-10-06_01-30-12.png)
+![Comparisons](2025-10-06_01-30-00.png)
+![Array Accesses](image.png)
 
 ## Analysis
 
